@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="img/cbtis.png">
+    <title>Registro De Datos</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <center><img src="img/cbtis.png" width="150" alt=""></center>
+    <style>
+        table {
+            border: 3px solid #33cc9e;
+            padding: 50px 70px;
+            margin-top: 50px;
+            border-radius: 5px;
+            background-color: #E6E6E6;
+        }
+        
+        body {
+            background-color: rgb(73, 73, 73);
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="data.php" name="" method="POST">
+        <table align="center">
+            <tr>
+                <td>
+                    <font size="4" color="#FE2EF7"><strong>Grupo: </strong></font>
+                </td>
+                <td>
+                    <label for="grupo"></label>
+                    <input type="text" name="grupo" id="grupo" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <font size="4" color="#FE2EF7"><strong>Hora: </strong></font>
+                </td>
+                <td>
+                    <label for="hora"></label>
+                    <input type="datetime" name="hora" id="hora" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <font size="4" color="#FE2EF7"><strong>Materia: </strong></font>
+                </td>
+                <td>
+                    <label for="materia"></label>
+                    <input type="text" name="materia" id="materia" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <font size="4" color="#FE2EF7"><strong>Alumnos: </strong></font>
+                </td>
+                <td>
+                    <label for="alumnos"></label>
+                    <input type="number" name="alumnos" id="alumnos" />
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <td align="center">
+                    <br>
+                    <button type="submit">Enviar</button>
+                </td>
+
+                <td align="center">
+                    <br>
+                    <button type="reset">Cancelar</button>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
+</body>
+
+</html>
